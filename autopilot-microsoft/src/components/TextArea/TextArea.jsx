@@ -1,4 +1,6 @@
 import { useRef, useEffect, useState } from "react";
+import React from "react";
+
 
 const TextArea = ({ value, onChange, placeholder, className, onKeyDown }) => {
   const textareaRef = useRef(null);

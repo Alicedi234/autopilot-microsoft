@@ -2,6 +2,11 @@ import pencile from "../../Assets/images/edit.png";
 import arrow from "../../Assets/images/Arrow-right-circle.png";
 import "./Form.scss";
 import { Link } from "react-router-dom";
+import React from "react";
+
+
+
+
 export default function Form() {
   return (
     <div className="Form__background">

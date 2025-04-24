@@ -1,3 +1,8 @@
+import React from "react";
+
+
+
+
 const SendButton = ({ className, onClick}) => {
   return (
   <svg version="1.1" id="Layer_1" x="0px" y="0px" className={className} onClick={onClick}

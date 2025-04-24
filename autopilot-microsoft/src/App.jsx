@@ -6,6 +6,8 @@ import FormPage from './pages/FormPage/FormPage';
 import WorkExamplePage from './pages/WorkExamplePage/WorkExamplePage';
 import StatusPage from './pages/StatusPage/StatusPage';
 import ResultPage from './pages/ResultPage/ResultPage';
+import React from "react";
+
 
 function App() {
   return (

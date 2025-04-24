@@ -5,6 +5,8 @@ import TextArea from "../TextArea/TextArea";
 import "./Chatbot.scss";
 import SendButton from "../SendButton/SendButton";
 import { Link } from "react-router-dom";
+import React from "react";
+
 
 export default function Chatbot() {
   const apiKey = "AIzaSyAIJRFWFJkh76xE_GR-kfM1BELLCn--pK4";
@@ -67,7 +69,7 @@ export default function Chatbot() {
         <div className="chat__layout chat__layout--Chatbot" >
           <div className="chat__message chat__message--Chatbot">
               <p className={`chat__label chat__label--Chatbot`}>Chatbot</p> 
-              <Markdown>Hey Felipe! I have a question</Markdown>
+              <Markdown>Hey Alice! I have a question</Markdown>
           </div>
         </div>
           
